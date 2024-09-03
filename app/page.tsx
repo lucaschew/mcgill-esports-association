@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-4xl font-bold mb-8">
-        Welcome to McGill Esports Association
+        Welcome to the McGill Esports Association
       </h1>
       <Card>
         <CardHeader>
@@ -37,7 +38,17 @@ export default function Home() {
           <Link href={`/teams/${team.slug}`} key={team.slug}>
             <Card className="hover:shadow-lg transition-shadow duration-300 cursor-pointer">
               <CardHeader>
-                <CardTitle>{team.name}</CardTitle>
+                <div className="flex items-center space-x-4">
+                  <div className="w-16 h-16 relative">
+                    <Image
+                      src={`/games/${team.slug}.png`}
+                      alt={`${team.name} logo`}
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <CardTitle>{team.name}</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
                 <p>
