@@ -18,13 +18,6 @@ const Navbar = () => {
         </Link>
         <Menubar className="bg-gray-800 border-none">
           <MenubarMenu>
-            <Link href="/" passHref>
-              <MenubarTrigger className="text-white hover:bg-gray-700">
-                Home
-              </MenubarTrigger>
-            </Link>
-          </MenubarMenu>
-          <MenubarMenu>
             <MenubarTrigger className="text-white hover:bg-gray-700">
               Teams
             </MenubarTrigger>
