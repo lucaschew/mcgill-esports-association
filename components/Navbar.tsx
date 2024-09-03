@@ -18,14 +18,11 @@ const Navbar = () => {
         </Link>
         <Menubar className="bg-gray-800 border-none">
           <MenubarMenu>
-            <MenubarTrigger className="text-white hover:bg-gray-700">
-              Home
-            </MenubarTrigger>
-            <MenubarContent>
-              <MenubarItem>
-                <Link href="/">Home</Link>
-              </MenubarItem>
-            </MenubarContent>
+            <Link href="/" passHref>
+              <MenubarTrigger className="text-white hover:bg-gray-700">
+                Home
+              </MenubarTrigger>
+            </Link>
           </MenubarMenu>
           <MenubarMenu>
             <MenubarTrigger className="text-white hover:bg-gray-700">
@@ -51,6 +48,30 @@ const Navbar = () => {
                 <Link href="/teams/dota-2">DOTA 2</Link>
               </MenubarItem>
             </MenubarContent>
+          </MenubarMenu>
+          <MenubarMenu>
+            <Link
+              href="https://linktr.ee/mcgillesports"
+              target="_blank"
+              rel="noopener noreferrer"
+              passHref
+            >
+              <MenubarTrigger className="text-white hover:bg-gray-700">
+                Linktree
+              </MenubarTrigger>
+            </Link>
+          </MenubarMenu>
+          <MenubarMenu>
+            <Link
+              href="https://discord.com/invite/AcuuPbQhAv"
+              target="_blank"
+              rel="noopener noreferrer"
+              passHref
+            >
+              <MenubarTrigger className="text-white hover:bg-gray-700">
+                Discord
+              </MenubarTrigger>
+            </Link>
           </MenubarMenu>
         </Menubar>
       </div>
