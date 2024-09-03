@@ -14,7 +14,6 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image src="/mesa.png" alt="MESA Logo" width={50} height={50} />
-          <span className="ml-2 text-xl font-bold">MESA</span>
         </Link>
         <Menubar className="bg-gray-800 border-none">
           <MenubarMenu>
