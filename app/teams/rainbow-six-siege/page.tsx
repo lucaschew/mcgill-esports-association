@@ -12,7 +12,7 @@ const ResultCard = ({
   logo: string;
   result: string;
 }) => (
-  <Card className="w-full sm:w-1/2 md:w-1/3 p-4">
+  <Card className="p-4">
     <CardHeader>
       <Image src={logo} alt={tournamentName} width={50} height={50} />
       <CardTitle className="text-lg">{tournamentName}</CardTitle>
@@ -32,7 +32,7 @@ const TeamMemberCard = ({
   role: string;
   icon: string;
 }) => (
-  <Card className="w-full sm:w-1/2 md:w-1/3 p-4">
+  <Card className="p-4">
     <CardHeader>
       <Image
         src={icon}
@@ -108,22 +108,22 @@ export default function RainbowSixSiegePage() {
       </Card>
 
       <h2 className="text-2xl font-semibold mb-4">Results</h2>
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-4 mb-8">
         <ResultCard
           tournamentName="CR6 Fall 2023"
-          logo="/cr6-logo.png"
-          result="Reached playoffs"
+          logo="/rainbow-six-siege/cr6.webp"
+          result="Top 64 Playoffs"
         />
         <ResultCard
           tournamentName="CR6 Spring 2023"
-          logo="/cr6-logo.png"
-          result="Reached playoffs"
+          logo="/rainbow-six-siege/cr6.webp"
+          result="Top 64 Playoffs"
         />
         {/* Add more ResultCards as needed */}
       </div>
 
       <h2 className="text-2xl font-semibold mb-4">Team Members</h2>
-      <div className="flex flex-wrap gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-4">
         <TeamMemberCard
           name="Mori"
           role="Team Captain"
