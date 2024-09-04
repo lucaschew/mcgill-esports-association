@@ -1,18 +1,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import Link from "next/link";
+import DisableableLink from "../ui/DisableableLink";
 
 export interface ResultCardProps {
   tournamentName: string;
   logo: string;
   result: string;
-  link: string;
+  link?: string;
 }
 
 export default function ResultCard(props: ResultCardProps) {
   return (
-    <Link
-      href={props.link}
+    <DisableableLink
+      href={props.link ?? ""}
+      disabled={!props.link}
       target="_blank"
       rel="noopener noreferrer"
       className="block h-full"
@@ -34,6 +35,6 @@ export default function ResultCard(props: ResultCardProps) {
           <p className="text-sm text-center">{props.result}</p>
         </CardContent>
       </Card>
-    </Link>
+    </DisableableLink>
   );
 }
