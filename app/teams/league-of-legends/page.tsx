@@ -15,10 +15,10 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            League of Legends is one of MESA's largest games, sporting upwards
-            of 5 teams across all skill levels. Our teams compete in 2 Riot
-            Games sponsored events, as well as having the opportunity to join
-            more if they choose.
+            League of Legends is one of MESA&apos;s largest games, sporting
+            upwards of 5 teams across all skill levels. Our teams compete in 2
+            Riot Games sponsored events, as well as having the opportunity to
+            join more if they choose.
           </p>
         </CardContent>
       </Card>
@@ -40,8 +40,8 @@ export default function LeagueOfLegendsPage() {
             team for anybody gold and under.
           </p>
           <p>
-            If you're interested in playing League competitively, then please
-            fill out the form from the button below
+            If you&apos;re interested in playing League competitively, then
+            please fill out the form from the button below
           </p>
           <br></br>
           <Link

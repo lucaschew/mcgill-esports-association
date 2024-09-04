@@ -46,8 +46,8 @@ export default function ValorantPage() {
             preliminarily, players will be placed into Division 1 or Division 2,
             while the second tryout could shuffle the players a little bit. If
             you have any questions or concerns regarding the tryouts, please
-            reach out to me @smashktchp on discord . Thank you and we're excited
-            to see everyone soon!
+            reach out to me @smashktchp on discord . Thank you and we&apos;re
+            excited to see everyone soon!
           </p>
           <Link href="https://forms.gle/xf23Wm5U5yBPquwH8" target="_blank">
             <Button>Join Our Team</Button>
