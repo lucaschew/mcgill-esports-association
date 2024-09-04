@@ -9,7 +9,7 @@ const teams = [
   { name: "Rocket League", slug: "rocket-league" },
   { name: "Valorant", slug: "valorant" },
   { name: "Overwatch 2", slug: "overwatch-2" },
-  { name: "DOTA 2", slug: "dota-2" },
+  { name: "Apex Legends", slug: "apex" },
 ];
 
 export default function Home() {

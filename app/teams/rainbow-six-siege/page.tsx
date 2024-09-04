@@ -1,59 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
-
-const ResultCard = ({
-  tournamentName,
-  logo,
-  result,
-}: {
-  tournamentName: string;
-  logo: string;
-  result: string;
-}) => (
-  <Card className="p-2">
-    <CardHeader className="flex flex-col items-center space-y-1 pb-2">
-      <Image
-        src={logo}
-        alt={tournamentName}
-        width={100}
-        height={100}
-        className="mb-1"
-      />
-      <CardTitle className="text-base text-center">{tournamentName}</CardTitle>
-    </CardHeader>
-    <CardContent>
-      <p className="text-sm text-center">{result}</p>
-    </CardContent>
-  </Card>
-);
-
-const TeamMemberCard = ({
-  name,
-  role,
-  icon,
-}: {
-  name: string;
-  role: string;
-  icon: string;
-}) => (
-  <Card className="p-2">
-    <CardHeader className="flex flex-col items-center space-y-1 pb-2">
-      <Image
-        src={icon}
-        alt={name}
-        width={100}
-        height={100}
-        className="rounded-full mb-1"
-      />
-      <CardTitle className="text-base text-center">{name}</CardTitle>
-    </CardHeader>
-    <CardContent>
-      <p className="text-sm text-center">{role}</p>
-    </CardContent>
-  </Card>
-);
+import ResultCard from "@/components/Cards/ResultCard";
+import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 
 export default function RainbowSixSiegePage() {
   return (
