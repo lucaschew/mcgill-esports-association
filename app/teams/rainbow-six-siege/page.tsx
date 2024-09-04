@@ -65,14 +65,22 @@ export default function RainbowSixSiegePage() {
       <h2 className="text-2xl font-semibold mb-4">Results</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
         <ResultCard
-          tournamentName="CR6 Spring 2023"
+          tournamentName="CR6 Spring 2024"
           logo="/rainbow-six-siege/cr6.webp"
           result="Top 64 Playoffs"
+          link="https://www.faceit.com/en/championship/b1e622f3-0662-41e5-b1f9-3ed453c47099/CollegiateR6%20Season%209%20Stage%202%20Playoffs/standings/column"
+        />
+        <ResultCard
+          tournamentName="Vespa X CR6 Invitational 2024"
+          logo="/rainbow-six-siege/cr6.webp"
+          result="5th Overall"
+          link="https://challonge.com/VESPAInvite/standings"
         />
         <ResultCard
           tournamentName="CR6 Fall 2023"
           logo="/rainbow-six-siege/cr6.webp"
           result="Top 64 Playoffs"
+          link="https://www.faceit.com/en/championship/e407c138-319d-4aea-b520-965940cf839d/CollegiateR6%20S9%20Stage%201%20Playoffs/standings/column"
         />
         {/* Add more ResultCards as needed */}
       </div>

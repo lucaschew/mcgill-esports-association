@@ -70,11 +70,13 @@ export default function TeamPage() {
           tournamentName="Octane Collegiate Playoffs 2022-2023"
           logo="/apex/octane-collegiate.jpg"
           result="Top 40 teams"
+          link=""
         />
         <ResultCard
           tournamentName="Octane Collegiate Playoffs Stage 2 2023-2024"
           logo="/apex/octane-collegiate.jpg"
           result="Top 20 teams"
+          link=""
         />
         {/* Add more ResultCards as needed */}
       </div>
