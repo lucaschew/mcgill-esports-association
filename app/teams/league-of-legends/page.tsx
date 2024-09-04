@@ -4,10 +4,10 @@ import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 
-export default function RainbowSixSiegePage() {
+export default function LeagueOfLegendsPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Rainbow Six: Siege Team</h1>
+      <h1 className="text-4xl font-bold mb-8">League of Legends Team</h1>
 
       <Card className="mb-8">
         <CardHeader>
