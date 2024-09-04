@@ -17,8 +17,10 @@ export default function LeagueOfLegendsPage() {
           <p className="mb-4">
             League of Legends is one of MESA&apos;s largest games, sporting
             upwards of 5 teams across all skill levels. Our teams compete in 2
-            Riot Games sponsored events, as well as having the opportunity to
-            join more if they choose.
+            Riot Games sponsored events, with more tournament opportunities
+            available throughout the year. Last year, we had five CLOL teams,
+            ranging from a Masters+ average CLOL A, to a casual CLOL G team for
+            anybody gold and under.
           </p>
         </CardContent>
       </Card>
@@ -29,19 +31,12 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
-          <p>
-            McGill CLOL teams are recruiting for the Fall 2024 and Winter 2025
-            season.
-          </p>
-          <p>
-            We will be mainly competing in the Fall 2024 CLOL Warmup tournament
-            and the Spring 2025 CLOL tournament. Last year, we had five CLOL
-            teams, ranging from a Masters+ average CLOL A, to a casual CLOL G
-            team for anybody gold and under.
-          </p>
-          <p>
-            If you&apos;re interested in playing League competitively, then
-            please fill out the form from the button below
+          <p className="mb-4">
+            McGill Collegiate League of Legends teams are recruiting for the
+            Fall 2024 and Winter 2025 season. We will be mainly competing in the
+            Fall 2024 CLOL Warmup tournament and the Spring 2025 CLOL
+            tournament. If you&apos;re interested in playing League
+            competitively, then please fill out the form from the button below!
           </p>
           <br></br>
           <Link

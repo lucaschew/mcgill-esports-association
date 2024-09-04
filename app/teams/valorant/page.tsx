@@ -15,12 +15,11 @@ export default function ValorantPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The Collegiate VALORANT team has played in Collegiate tournaments
-            for North American schools, such as NACE Starleague and CVal,
-            regular season tournaments. The teams have signed up and will sign
-            up for any other Open tournaments that matches their availability,
-            if they choose to. Preliminary dates are in the range of Aug 29-Sep
-            1 and Sep 5-8.
+            The McGill Collegiate VALORANT teams play in Collegiate tournaments
+            such as the NACE Starleague and CVal over the course of the
+            semester. The teams have signed up and will sign up for any other
+            Open tournaments that matches their availability, if they choose to.
+            Preliminary dates are in the range of Aug 29-Sep 1 and Sep 5-8.
           </p>
         </CardContent>
       </Card>
@@ -49,7 +48,7 @@ export default function ValorantPage() {
             reach out to me @smashktchp on discord . Thank you and we&apos;re
             excited to see everyone soon!
           </p>
-          <Link href="https://forms.gle/xf23Wm5U5yBPquwH8" target="_blank">
+          <Link href="https://forms.gle/LxDn9X5oVVBhvmcAA" target="_blank">
             <Button>Join Our Team</Button>
           </Link>
         </CardContent>
