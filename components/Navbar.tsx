@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link href="/teams/overwatch-2">Overwatch 2</Link>
               </MenubarItem>
               <MenubarItem>
-                <Link href="/teams/dota-2">DOTA 2</Link>
+                <Link href="/teams/apex">Apex Legends</Link>
               </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
