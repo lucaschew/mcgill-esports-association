@@ -1,19 +1,55 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import ResultCard from "@/components/Cards/ResultCard";
+import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 
-export default function TeamPage() {
+export default function RainbowSixSiegePage() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold mb-8">League of Legends</h1>
-      <Card>
+    <div className="container mx-auto px-4">
+      <h1 className="text-4xl font-bold mb-8">Rainbow Six: Siege Team</h1>
+
+      <Card className="mb-8">
         <CardHeader>
-          <CardTitle>About Our League of Legends Team</CardTitle>
+          <CardTitle className="text-xl">About Our Team</CardTitle>
         </CardHeader>
         <CardContent>
-          <p>
-            Information about the League of Legends team goes here. Include
-            details about team members, achievements, upcoming tournaments, and
-            more.
+          <p className="mb-4">
+            League of Legends is one of MESA's largest games, sporting upwards
+            of 5 teams across all skill levels. Our teams compete in 2 Riot
+            Games sponsored events, as well as having the opportunity to join
+            more if they choose.
           </p>
+        </CardContent>
+      </Card>
+
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle className="text-xl">Recruitment</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <h3 className="font-semibold mb-2">Who are we looking for?</h3>
+          <p>
+            McGill CLOL teams are recruiting for the Fall 2024 and Winter 2025
+            season.
+          </p>
+          <p>
+            We will be mainly competing in the Fall 2024 CLOL Warmup tournament
+            and the Spring 2025 CLOL tournament. Last year, we had five CLOL
+            teams, ranging from a Masters+ average CLOL A, to a casual CLOL G
+            team for anybody gold and under.
+          </p>
+          <p>
+            If you're interested in playing League competitively, then please
+            fill out the form from the button below
+          </p>
+          <br></br>
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSepejMZs9jCIhyNViZHiVW3EUAeQOvQBAkidZEs-oiWwg_U4g/viewform?usp=sf_link"
+            target="_blank"
+          >
+            <Button>Join Our Team</Button>
+          </Link>
         </CardContent>
       </Card>
     </div>
