@@ -49,7 +49,9 @@ export default function ValorantPage() {
             excited to see everyone soon!
           </p>
           <Link href="https://forms.gle/LxDn9X5oVVBhvmcAA" target="_blank">
-            <Button>Join Our Team</Button>
+            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+              Join Our Team
+            </Button>
           </Link>
         </CardContent>
       </Card>

@@ -43,7 +43,9 @@ export default function LeagueOfLegendsPage() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSepejMZs9jCIhyNViZHiVW3EUAeQOvQBAkidZEs-oiWwg_U4g/viewform?usp=sf_link"
             target="_blank"
           >
-            <Button>Join Our Team</Button>
+            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+              Join Our Team
+            </Button>
           </Link>
         </CardContent>
       </Card>

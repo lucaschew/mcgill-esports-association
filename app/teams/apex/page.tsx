@@ -59,7 +59,9 @@ export default function TeamPage() {
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
           <Link href="https://forms.gle/xZRRZPrJh8Ds66Ln8" target="_blank">
-            <Button>Join Our Team</Button>
+            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+              Join Our Team
+            </Button>
           </Link>
         </CardContent>
       </Card>

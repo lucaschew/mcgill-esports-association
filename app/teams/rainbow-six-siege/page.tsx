@@ -57,7 +57,9 @@ export default function RainbowSixSiegePage() {
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
           <Link href="https://forms.gle/1c9ySu4KY6ykoj736" target="_blank">
-            <Button>Join Our Team</Button>
+            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+              Join Our Team
+            </Button>
           </Link>
         </CardContent>
       </Card>

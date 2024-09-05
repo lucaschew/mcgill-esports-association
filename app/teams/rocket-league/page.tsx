@@ -46,7 +46,9 @@ export default function RocketLeaguePage() {
             below!
           </p>
           <Link href="https://forms.gle/2WmcpHag9gK6Y4ub8" target="_blank">
-            <Button>Join Our Team</Button>
+            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+              Join Our Team
+            </Button>
           </Link>
         </CardContent>
       </Card>

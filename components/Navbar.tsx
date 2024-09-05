@@ -10,17 +10,22 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-800 text-white">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
-          <Image src="/mesa.png" alt="MESA Logo" width={50} height={50} />
+    <header className="bg-mcgill text-white">
+      <div className="container mx-auto px-3 py-3 flex items-center justify-between">
+        <Link href="/" className="flex items-center bg-gray-100 rounded-xl">
+          <Image
+            src="/mesa_zoomed.png"
+            alt="MESA Logo"
+            width={60}
+            height={60}
+          />
         </Link>
-        <Menubar className="bg-gray-800 border-none">
+        <Menubar className="bg-mcgill border-none">
           <MenubarMenu>
-            <MenubarTrigger className="text-white hover:bg-gray-700">
+            <MenubarTrigger className="text-white hover:bg-mcgill-vibrant">
               Teams
             </MenubarTrigger>
-            <MenubarContent>
+            <MenubarContent className="bg-mcgill">
               <MenubarItem>
                 <Link href="/teams/rainbow-six-siege">Rainbow Six: Siege</Link>
               </MenubarItem>
@@ -48,7 +53,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               passHref
             >
-              <MenubarTrigger className="text-white hover:bg-gray-700">
+              <MenubarTrigger className="text-white hover:bg-mcgill-vibrant">
                 Linktree
               </MenubarTrigger>
             </Link>
@@ -60,7 +65,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               passHref
             >
-              <MenubarTrigger className="text-white hover:bg-gray-700">
+              <MenubarTrigger className="text-white hover:bg-mcgill-vibrant">
                 Discord
               </MenubarTrigger>
             </Link>
