@@ -139,6 +139,91 @@ export default function LeagueOfLegendsPage() {
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL B 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="FeatherSlash"
+          role="Top"
+          icon="/league-of-legends/FeatherSlash.jpg"
+        />
+        <TeamMemberCard
+          name="Cosmo"
+          role="Jungle"
+          icon="/league-of-legends/Cosmo.jpg"
+        />
+        <TeamMemberCard
+          name="Vasticious"
+          role="Jungle"
+          icon="/league-of-legends/Vasticious.jpg"
+        />
+        <TeamMemberCard
+          name="Meeps"
+          role="Mid"
+          icon="/league-of-legends/Meeps.jpg"
+        />
+        <TeamMemberCard
+          name="Boggodib"
+          role="ADC"
+          icon="/league-of-legends/Boggodib.jpg"
+        />
+        <TeamMemberCard
+          name="gemi"
+          role="Support"
+          icon="/league-of-legends/gemi.jpg"
+        />
+        <TeamMemberCard
+          name="BrokenBenis"
+          role="Support"
+          icon="/league-of-legends/BrokenBenis.jpg"
+        />
+        <TeamMemberCard
+          name="dxnsity"
+          role=""
+          icon="/league-of-legends/dxnsity.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL B 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="La1n"
+          role="Top"
+          icon="/league-of-legends/La1n.jpg"
+        />
+        <TeamMemberCard
+          name="LAMINE YAMAL"
+          role="Jungle"
+          icon="/league-of-legends/LAMINE YAMAL.jpg"
+        />
+        <TeamMemberCard
+          name="Br0kxn"
+          role="Jungle"
+          icon="/league-of-legends/Br0kxn.png"
+        />
+        <TeamMemberCard
+          name="Grape"
+          role="Mid"
+          icon="/league-of-legends/Grape.jpg"
+        />
+        <TeamMemberCard
+          name="Juicebox"
+          role="ADC"
+          icon="/league-of-legends/Juicebox.jpg"
+        />
+        <TeamMemberCard
+          name="Saieu"
+          role="Support"
+          icon="/league-of-legends/Saieu.jpg"
+        />
+        <TeamMemberCard
+          name="Celem"
+          role="Support"
+          icon="/league-of-legends/Celem.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
