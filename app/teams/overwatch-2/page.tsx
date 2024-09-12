@@ -64,6 +64,63 @@ export default function OverwatchPage() {
         />
         {/* Add more ResultCards as needed */}
       </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Main Roster 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="eggcellent8"
+          role="DPS/Support"
+          icon="/overwatch-2/eggcellent8.jpg"
+        />
+        <TeamMemberCard
+          name="jammm"
+          role="DPS/Support"
+          icon="/overwatch-2/jammm.jpg"
+        />
+        <TeamMemberCard
+          name="Gorilla"
+          role="Tank/Support"
+          icon="/overwatch-2/Gorilla.jpg"
+        />
+        <TeamMemberCard
+          name="last"
+          role="Support"
+          icon="/overwatch-2/last.jpg"
+        />
+        <TeamMemberCard
+          name="jijoux"
+          role="Tank/Support"
+          icon="/overwatch-2/jijoux.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">Reserves 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard name="Roman" role="DPS" icon="/overwatch-2/Roman.jpg" />
+        <TeamMemberCard
+          name="CJRook43"
+          role="Tank"
+          icon="/overwatch-2/CJRook43.jpg"
+        />
+        <TeamMemberCard
+          name="Mario"
+          role="Support"
+          icon="/overwatch-2/Mario.jpg"
+        />
+        <TeamMemberCard name="GRIS" role="Flex" icon="/overwatch-2/GRIS.jpg" />
+        <TeamMemberCard
+          name="好耶"
+          role="Support"
+          icon="/overwatch-2/itshaoe.jpg"
+        />
+        <TeamMemberCard
+          name="OwlFlight"
+          role="Tank"
+          icon="/overwatch-2/OwlFlight.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
