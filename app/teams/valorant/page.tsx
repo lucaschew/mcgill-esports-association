@@ -58,6 +58,16 @@ export default function ValorantPage() {
           </Link>
         </CardContent>
       </Card>
+
+      <h2 className="text-2xl font-semibold mb-4">2023 Team</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard name="Jay" role="" icon="/valorant/Jay.jpg" />
+        <TeamMemberCard name="lilho" role="" icon="/valorant/lilho.jpg" />
+        <TeamMemberCard name="arColm" role="" icon="/valorant/arColm.jpg" />
+        <TeamMemberCard name="smash" role="" icon="/valorant/smash.jpg" />
+        <TeamMemberCard name="Singe" role="" icon="/valorant/Singe.jpg" />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
