@@ -89,6 +89,56 @@ export default function LeagueOfLegendsPage() {
         />
         {/* Add more ResultCards as needed */}
       </div>
+
+      <h2 className="text-2xl font-semibold mb-4">CLOL A 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Hazeux"
+          role="Toplaner"
+          icon="/league-of-legends/Hazeux.jpg"
+        />
+        <TeamMemberCard
+          name="FeatherSlash"
+          role="Toplaner"
+          icon="/league-of-legends/FeatherSlash.jpg"
+        />
+        <TeamMemberCard
+          name="rainyday"
+          role="Jungle"
+          icon="/league-of-legends/rainyday.jpg"
+        />
+        <TeamMemberCard
+          name="cnjz"
+          role="Jungle"
+          icon="/league-of-legends/cnjz.png"
+        />
+        <TeamMemberCard
+          name="NxRd"
+          role="Mid"
+          icon="/league-of-legends/NxRd.jpg"
+        />
+        <TeamMemberCard
+          name="RequiemPhA"
+          role="Mid"
+          icon="/league-of-legends/RequiemPhA.jpg"
+        />
+        <TeamMemberCard
+          name="Greyhound"
+          role="ADC"
+          icon="/league-of-legends/Greyhound.jpg"
+        />
+        <TeamMemberCard
+          name="GRIS"
+          role="ADC"
+          icon="/league-of-legends/GRIS.jpg"
+        />
+        <TeamMemberCard
+          name="Vasticious"
+          role="Support"
+          icon="/league-of-legends/Vasticious.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
