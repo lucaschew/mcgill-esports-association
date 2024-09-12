@@ -80,6 +80,15 @@ export default function TeamPage() {
         />
         {/* Add more ResultCards as needed */}
       </div>
+      <h2 className="text-2xl font-semibold mb-4">2024 Team</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard name="dirtydib" role="" icon="/apex/dirtydib.jpg" />
+        <TeamMemberCard name="Rayeless" role="" icon="/apex/Rayeless.jpg" />
+        <TeamMemberCard name="HogMyNinja" role="" icon="/apex/HogMyNinja.jpg" />
+        <TeamMemberCard name="FooGiGo" role="" icon="/apex/FooGiGo.jpg" />
+        <TeamMemberCard name="Rao" role="" icon="/apex/Rao.jpg" />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
