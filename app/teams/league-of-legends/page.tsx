@@ -185,7 +185,7 @@ export default function LeagueOfLegendsPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL B 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL C 2023</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="La1n"
@@ -221,6 +221,76 @@ export default function LeagueOfLegendsPage() {
           name="Celem"
           role="Support"
           icon="/league-of-legends/Celem.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL D 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Chowder"
+          role="Top"
+          icon="/league-of-legends/Chowder.jpg"
+        />
+        <TeamMemberCard
+          name="dxnsity"
+          role="Top"
+          icon="/league-of-legends/dxnsity.jpg"
+        />
+        <TeamMemberCard
+          name="Mokamaruka"
+          role="Jungle"
+          icon="/league-of-legends/Mokamaruka.jpg"
+        />
+        <TeamMemberCard
+          name="Azurea"
+          role="Mid"
+          icon="/league-of-legends/Azurea.jpg"
+        />
+        <TeamMemberCard
+          name="Kenjbruh"
+          role="ADC"
+          icon="/league-of-legends/Kenjbruh.jpg"
+        />
+        <TeamMemberCard
+          name="Shankster"
+          role="Support"
+          icon="/league-of-legends/Shankster.jpg"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL G 2023</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Súp lươn Nghệ An"
+          role="Top"
+          icon="/league-of-legends/sup luon ange an.jpg"
+        />
+        <TeamMemberCard
+          name="merphecc"
+          role="Top"
+          icon="/league-of-legends/merphecc.jpg"
+        />
+        <TeamMemberCard
+          name="Zeromancereast"
+          role="Jungle"
+          icon="/league-of-legends/Zeromancereast.jpg"
+        />
+        <TeamMemberCard
+          name="AngleLine"
+          role="Mid"
+          icon="/league-of-legends/AngleLine.jpg"
+        />
+        <TeamMemberCard
+          name="AvocadoPhobia"
+          role="ADC"
+          icon="/league-of-legends/AvocadoPhobia.jpg"
+        />
+        <TeamMemberCard
+          name="Malyesa"
+          role="Support"
+          icon="/league-of-legends/Malyesa.jpg"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
