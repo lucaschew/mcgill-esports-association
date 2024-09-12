@@ -82,6 +82,19 @@ export default function RocketLeaguePage() {
         />
         {/* Add more ResultCards as needed */}
       </div>
+
+      <h2 className="text-2xl font-semibold mb-4">A Team</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard name="last" role="" icon="/rocket-league/last.jpg" />
+        <TeamMemberCard
+          name="napeel"
+          role=""
+          icon="/rocket-league/napeel.jpg"
+        />
+        <TeamMemberCard name="rav" role="" icon="/rocket-league/rav.jpg" />
+        <TeamMemberCard name="Karim" role="" icon="/rocket-league/Karim.jpg" />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
