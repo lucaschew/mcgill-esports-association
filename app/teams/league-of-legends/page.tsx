@@ -15,7 +15,7 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            League of Legends is one of MESA&apos;s largest game, sporting
+            League of Legends is one of MESA&apos;s largest games, sporting
             upwards of 5 teams across all skill levels. We have space for
             everyone, from our elite CLOL A team (high Masters+) to our more
             casual CLOL G team (Gold and under). Our teams represent McGill as

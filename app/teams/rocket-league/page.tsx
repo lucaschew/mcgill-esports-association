@@ -71,7 +71,7 @@ export default function RocketLeaguePage() {
           result="385th/900"
         />
         <ResultCard
-          tournamentName="2023 CRL Fall 2023"
+          tournamentName="2023 CRL Fall"
           logo="/rocket-league/CRL.png"
           result="193rd/238"
         />
