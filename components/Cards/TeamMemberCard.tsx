@@ -11,13 +11,15 @@ export default function TeamMemberCard(props: TeamMemberCardProps) {
   return (
     <Card className="p-2">
       <CardHeader className="flex flex-col items-center space-y-1 pb-2">
-        <Image
-          src={props.icon}
-          alt={props.name}
-          width={100}
-          height={100}
-          className="rounded-full mb-1"
-        />
+        <div className="w-[100px] h-[100px] relative">
+          <Image
+            src={props.icon}
+            alt={props.name}
+            fill
+            sizes="100px"
+            className="rounded-full object-cover"
+          />
+        </div>
         <CardTitle className="text-base text-center">{props.name}</CardTitle>
       </CardHeader>
       <CardContent>
