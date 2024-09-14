@@ -38,6 +38,10 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.mcgill-esports.com/" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link
+          rel="icon"
+          href="https://www.mcgill-esports.com/favicon.ico"
+        ></link>
       </Head>
       <div>
         <h1 className="text-4xl font-bold mb-8">
