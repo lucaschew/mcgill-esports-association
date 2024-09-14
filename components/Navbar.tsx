@@ -25,7 +25,7 @@ const Navbar = () => {
             <MenubarTrigger className="text-white hover:bg-mcgill-vibrant">
               Teams
             </MenubarTrigger>
-            <MenubarContent className="bg-mcgill">
+            <MenubarContent className="bg-mcgill text-white">
               <MenubarItem>
                 <Link href="/teams/rainbow-six-siege">Rainbow Six: Siege</Link>
               </MenubarItem>
