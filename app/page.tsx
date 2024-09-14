@@ -64,7 +64,7 @@ export default function Home() {
               <li>Esports watch parties</li>
             </ul>
             <p className="mt-4">
-              Whether you&aposre a competitive player or just looking to have
+              Whether you&apos;re a competitive player or just looking to have
               fun and meet fellow gamers, MESA has something for everyone in the
               McGill community!
             </p>
