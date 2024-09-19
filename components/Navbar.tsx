@@ -10,7 +10,7 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="bg-mcgill text-white">
+    <header className="bg-mcgill text-white sticky top-0">
       <div className="container mx-auto px-3 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center bg-gray-100 rounded-xl">
           <Image
