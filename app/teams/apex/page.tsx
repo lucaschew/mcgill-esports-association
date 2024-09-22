@@ -49,7 +49,7 @@ export default function TeamPage() {
           <ul className="list-disc pl-5 mb-4">
             <li>
               McGill students with any level of experience in Apex (MK or
-              Controller) and is interested in competing in the league
+              Controller) and who are interested in competing in the league
             </li>
             <li>
               Available on Saturday in the afternoon for competition and 2-3
