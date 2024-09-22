@@ -66,6 +66,7 @@ export default function Home() {
               <li>Gaming cafe takeovers</li>
               <li>Casual gaming nights</li>
               <li>Esports watch parties</li>
+              <li>In-house tournaments</li>
             </ul>
             <p className="mt-4">
               Whether you&apos;re a competitive player or just looking to have
