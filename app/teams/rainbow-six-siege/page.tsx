@@ -91,7 +91,7 @@ export default function RainbowSixSiegePage() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Mori"
-          role="Team Captain"
+          role="Coordinator, Support"
           icon="/rainbow-six-siege/Mori.png"
         />
         <TeamMemberCard
@@ -105,6 +105,16 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/Melkor.png"
         />
         <TeamMemberCard
+          name="Ninth"
+          role="Flex"
+          icon="/rainbow-six-siege/Ninth.png"
+        />
+        <TeamMemberCard
+          name="Joyuss"
+          role="Flex"
+          icon="/rainbow-six-siege/Joyuss.png"
+        />
+        <TeamMemberCard
           name="Csar"
           role="Flex"
           icon="/rainbow-six-siege/Csar.png"
@@ -113,6 +123,11 @@ export default function RainbowSixSiegePage() {
           name="jjanethe"
           role="Support"
           icon="/rainbow-six-siege/jjanethe.png"
+        />
+        <TeamMemberCard
+          name="Park"
+          role="Flex"
+          icon="/rainbow-six-siege/Park.jpg"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
