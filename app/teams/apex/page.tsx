@@ -80,14 +80,83 @@ export default function TeamPage() {
         />
         {/* Add more ResultCards as needed */}
       </div>
-      <h2 className="text-2xl font-semibold mb-4">2024 Team</h2>
+
+      {/* 2022 */}
+      <h2 className="text-2xl font-semibold mb-4">2022 Team</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-        <TeamMemberCard name="dirtydib" role="" icon="/apex/dirtydib.jpg" />
-        <TeamMemberCard name="Rayeless" role="" icon="/apex/Rayeless.jpg" />
-        <TeamMemberCard name="HogMyNinja" role="" icon="/apex/HogMyNinja.jpg" />
-        <TeamMemberCard name="FooGiGo" role="" icon="/apex/FooGiGo.jpg" />
-        <TeamMemberCard name="Rao" role="" icon="/apex/Rao.jpg" />
-        {/* Add more TeamMemberCards as needed */}
+        <TeamMemberCard
+          name="Rayeless"
+          role="IGL, Anchor"
+          icon="/apex/Rayeless.jpg"
+        />
+        <TeamMemberCard
+          name="HogMyNinja"
+          role="Entry"
+          icon="/apex/HogMyNinja.jpg"
+        />
+        <TeamMemberCard
+          name="FooGiGo"
+          role="Support"
+          icon="/apex/FooGiGo.jpg"
+        />
+        <TeamMemberCard
+          name="Encentivus"
+          role="Coordinator"
+          icon="/apex/Encentivus.jpg"
+        />
+      </div>
+
+      {/* 2023 */}
+      <h2 className="text-2xl font-semibold mb-4">2023 Team</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="dirtydib"
+          role="IGL, Entry"
+          icon="/apex/dirtydib.jpg"
+        />
+        <TeamMemberCard
+          name="HogMyNinja"
+          role="Support"
+          icon="/apex/HogMyNinja.jpg"
+        />
+        <TeamMemberCard
+          name="FooGiGo"
+          role="Support"
+          icon="/apex/FooGiGo.jpg"
+        />
+        <TeamMemberCard
+          name="Rayeless"
+          role="Sub, Coach"
+          icon="/apex/Rayeless.jpg"
+        />
+        <TeamMemberCard name="Rao" role="Sub" icon="/apex/Rao.jpg" />
+        <TeamMemberCard
+          name="Encentivus"
+          role="Coordinator"
+          icon="/apex/Encentivus.jpg"
+        />
+      </div>
+
+      {/* 2024 */}
+      <h2 className="text-2xl font-semibold mb-4">2024 Split 1 Team</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Rayeless"
+          role="IGL, Anchor, Coordinator"
+          icon="/apex/Rayeless.jpg"
+        />
+        <TeamMemberCard
+          name="HogMyNinja"
+          role="Entry"
+          icon="/apex/HogMyNinja.jpg"
+        />
+        <TeamMemberCard
+          name="Freddy Fazbear"
+          role="Support"
+          icon="/apex/Freddy.jpg"
+        />
+        <TeamMemberCard name="Rao" role="Sub, Coach" icon="/apex/Rao.jpg" />
+        <TeamMemberCard name="MMBBB" role="Sub" icon="/apex/MMBBB.jpg" />
       </div>
     </div>
   );

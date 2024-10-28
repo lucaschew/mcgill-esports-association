@@ -9,17 +9,21 @@ export interface TeamMemberCardProps {
 
 export default function TeamMemberCard(props: TeamMemberCardProps) {
   return (
-    <Card className="p-2">
+    <Card className="p-2 h-full flex flex-col">
       <CardHeader className="flex flex-col items-center space-y-1 pb-2">
-        <div className="w-[100px] h-[100px] relative">
-          <Image
-            src={props.icon}
-            alt={props.name}
-            fill
-            sizes="100px"
-            className="rounded-full object-cover"
-          />
-        </div>
+        <Image
+          src={props.icon}
+          alt={props.name}
+          width={100}
+          height={100}
+          className="rounded-full object-cover"
+          style={{
+            minHeight: "100px",
+            minWidth: "100px",
+            maxHeight: "100px",
+            maxWidth: "100px",
+          }}
+        />
         <CardTitle className="text-base text-center">{props.name}</CardTitle>
       </CardHeader>
       <CardContent>
