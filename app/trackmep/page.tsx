@@ -70,7 +70,7 @@ export default function MEPTracker() {
         [key: string]: { meps: string; updatedTime: string };
       };
       setResult(
-        `MEPS Points for Student ID ${studentId}: ${typedStudentData[studentId].meps}, Last Updated: ${typedStudentData[studentId].updatedTime}`
+        `MEP for Student ID ${studentId}: ${typedStudentData[studentId].meps}, Last Updated: ${typedStudentData[studentId].updatedTime}`
       );
     } else {
       setResult("Student ID not registered.");
