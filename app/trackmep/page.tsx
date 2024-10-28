@@ -9,17 +9,19 @@ export default function MEPPage() {
   const [result, setResult] = useState("");
 
   const googleSheetCsvUrl =
-    "https://corsproxy.io/?" +
-    encodeURIComponent(
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgeG58_HnJ27nFHlARJTUBpE25dnGDCQbhc9XgiGhihrEDeQKc3KlVoqTWe8k3Sp8EDMl73b2hKxGP/pub?gid=0&single=true&output=csv"
-    );
+    "https://proxy.cors.sh/https://docs.google.com/spreadsheets/d/e/2PACX-1vSgeG58_HnJ27nFHlARJTUBpE25dnGDCQbhc9XgiGhihrEDeQKc3KlVoqTWe8k3Sp8EDMl73b2hKxGP/pub?gid=0&single=true&output=csv";
 
   const loadStudentData = async () => {
     try {
-      const response = await fetch(googleSheetCsvUrl);
+      const response = await fetch(googleSheetCsvUrl, {
+        headers: {
+          "x-cors-api-key": process.env.NEXT_PUBLIC_CORS_API_KEY || "",
+        },
+      });
       const data = await response.text();
       const rows = data.split("\n");
-      let studentData = {};
+      let studentData: Record<string, { meps: string; updatedTime: string }> =
+        {};
 
       rows.slice(1).forEach((row) => {
         const columns = row.split(",");
@@ -27,9 +29,7 @@ export default function MEPPage() {
         const meps = columns[1].trim();
         const updatedTime = columns[2].trim();
         if (id && meps && updatedTime) {
-          (
-            studentData as Record<string, { meps: string; updatedTime: string }>
-          )[id] = {
+          studentData[id] = {
             meps: meps,
             updatedTime: updatedTime,
           };
@@ -40,6 +40,7 @@ export default function MEPPage() {
     } catch (error) {
       console.error("Error loading Google Sheet data:", error);
       setResult("Failed to load data. Please try again later.");
+      return null;
     }
   };
 
