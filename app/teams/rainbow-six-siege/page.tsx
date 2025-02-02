@@ -23,12 +23,12 @@ export default function RainbowSixSiegePage() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>CR6 (Sept 21 - Early December):</strong> A long-standing
+              <strong>CR6 (Jan 27th - Apr 7th):</strong> A long-standing
               collegiate league in NA. One match per week.
             </li>
             <li>
-              <strong>CCL (Sept 16th - Nov 25th):</strong> A new collegiate
-              Canadian league. One match per week.
+              <strong>CCL (Jan 27th - Mar 24th):</strong> Season 2 of the
+              Canadian Collegiate League. One match per week.
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -66,6 +66,18 @@ export default function RainbowSixSiegePage() {
 
       <h2 className="text-2xl font-semibold mb-4">Results</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <ResultCard
+          tournamentName="CR6 Fall 2024"
+          logo="/rainbow-six-siege/cr6.webp"
+          result="Top 32 Playoffs"
+          link="https://www.faceit.com/en/championship/df136888-54f4-481b-9d95-78adc2fa8f22/CollegiateR6%20Season%2010%20-%20Stage%201%20-%20Combined%20Playoffs/results"
+        />
+        <ResultCard
+          tournamentName="CCL Fall 2024"
+          logo="/rainbow-six-siege/ccl.webp"
+          result="Top 8 Playoffs"
+          link="https://www.opleague.pro/event/5183-CCLR6Season1-Playoffs/standing"
+        />
         <ResultCard
           tournamentName="CR6 Spring 2024"
           logo="/rainbow-six-siege/cr6.webp"
